@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+/* Custom CSS */
+.metamask-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: transparent;
+  border: 1px solid #f5841f;
+  color: #f5841f;
+  font-weight: 700;
+  padding: 0.5em 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  min-width: 200px;
+}
+
+.metamask-btn:hover {
+  opacity: 0.8;
+}
+
+.metamask-btn img {
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,29 @@
+_id: req_c831eb2dc0c84eb7bec6510107f6664e
+type: Request
+parentId: fld_6f565a940a7f486db340bcc181eeba52
+modified: 1630327232359
+created: 1630167227233
+url: "{{ _.base_url }}/threads"
+name: By ThreadId
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_a9c81ff82d0845a78928e862dd6e614d
+    name: apikey
+    value: "{{ _.api_key }}"
+    description: ""
+  - id: pair_09e2021df40b4d87af4f2675bfc2bfa3
+    name: threadId
+    value: "1"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1630167227233
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

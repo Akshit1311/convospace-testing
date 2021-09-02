@@ -1,0 +1,35 @@
+_id: req_ff98bb1d699d443699d91e397df76ae7
+type: Request
+parentId: fld_607b7bb5072046d29d48f456ebda7964
+modified: 1630568750147
+created: 1630152447623
+url: "{{ _.base_url }}/auth"
+name: GET Auth Token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"signerAddress": "0xb69cf8f29A01c0DC43f56F96458368DfC020eB27",
+    	"signature": "0x9fb5ceb8c636bdfd7a97baea0541834b993370ead3f82632b9db4149ae032cad08d0a3f260410c53437fb9feaa14f874aa77f4b72e92b9a1b25f734f9d5503c41c",
+    	"timestamp": 1630152405719
+    }
+parameters:
+  - id: pair_7e7c20a951af4cec82b0d08e3467ffe7
+    name: apikey
+    value: "{{ _.api_key }}"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_37623b208ec94e00bb7a97358246f5d9
+authentication: {}
+metaSortKey: -1630144838379
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

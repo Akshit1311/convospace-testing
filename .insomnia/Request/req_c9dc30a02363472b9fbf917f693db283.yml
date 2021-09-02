@@ -1,0 +1,35 @@
+_id: req_c9dc30a02363472b9fbf917f693db283
+type: Request
+parentId: fld_0ad919f65ffd4ac38bad86cf786476e5
+modified: 1630417429633
+created: 1630167761694
+url: "{{ _.base_url }}/comments"
+name: By ThreadId and URL
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_26843c9a3c264c9f93cf795a670b4641
+    name: apikey
+    value: "{{ _.api_key }}"
+    description: ""
+  - id: pair_1867876520554666bc400e8c62099b5f
+    name: threadId
+    value: huddle01__1234
+    description: ""
+    disabled: false
+  - id: pair_f59fffecaded47cca468407c3622429c
+    name: url
+    value: https%3A%2F%2Fhuddle01.io%2F
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1630167334978.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

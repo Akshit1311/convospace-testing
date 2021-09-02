@@ -1,0 +1,35 @@
+_id: req_80b6518d0cd5448dbed1f60f28f21764
+type: Request
+parentId: fld_0ad919f65ffd4ac38bad86cf786476e5
+modified: 1630417270201
+created: 1630172422960
+url: "{{ _.base_url }}/comments"
+name: Delete comment
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiMHhiNjljZjhmMjlBMDFjMERDNDNmNTZGOTY0NTgzNjhEZkMwMjBlQjI3IiwiY2hhaW4iOiJldGhlcmV1bSIsImlhdCI6MTYzMDQxNzI1MywiZXhwIjoxNjMwNTAzNjUzfQ.JGO-DyTE4lM9cY3BBkQ_bZn_HyFn4skNSlmP2z1MpGI",
+    	"signerAddress": "0xb69cf8f29A01c0DC43f56F96458368DfC020eB27",
+    	"commentId": "123456"
+    }
+parameters:
+  - id: pair_975859f2ebc140f3a8fbfd6d79f28655
+    name: apikey
+    value: "{{ _.api_key }}"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_caebc084f4cb48bba23ad6d95be1cb4a
+authentication: {}
+metaSortKey: -1630167334928.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

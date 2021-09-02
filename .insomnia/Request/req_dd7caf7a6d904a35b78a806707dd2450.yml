@@ -1,0 +1,25 @@
+_id: req_dd7caf7a6d904a35b78a806707dd2450
+type: Request
+parentId: fld_6f565a940a7f486db340bcc181eeba52
+modified: 1630167364414
+created: 1630144838279
+url: "{{ _.base_url }}/threads"
+name: All Threads
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_7c58753c490c439fbbf69b9fa3d3dc32
+    name: apikey
+    value: "{{ _.api_key }}"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1630167227283
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

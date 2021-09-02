@@ -1,0 +1,31 @@
+_id: req_0859dd407782477dbec291b9bbde4409
+type: Request
+parentId: fld_6f565a940a7f486db340bcc181eeba52
+modified: 1630174448543
+created: 1630167386607
+url: "{{ _.base_url }}/threads"
+name: By URL
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_c94188d5c922406c870c8b5e0eb425f4
+    name: apikey
+    value: "{{ _.api_key }}"
+    description: ""
+  - id: pair_2bbc3c3f5aff46dcab1752969383bedf
+    name: url
+    value: https%3A%2F%2Fhuddle01.io
+    description: ""
+    type: text
+    multiline: false
+headers: []
+authentication: {}
+metaSortKey: -1630167227183
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

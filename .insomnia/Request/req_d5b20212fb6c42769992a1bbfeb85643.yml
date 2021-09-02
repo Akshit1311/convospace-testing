@@ -1,0 +1,35 @@
+_id: req_d5b20212fb6c42769992a1bbfeb85643
+type: Request
+parentId: fld_0ad919f65ffd4ac38bad86cf786476e5
+modified: 1630417339075
+created: 1630167713691
+url: "{{ _.base_url }}/comments"
+name: By URL
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_1867876520554666bc400e8c62099b5f
+    name: url
+    value: http%3A%2F%2Flocalhost%3A3000%2F
+    description: ""
+    disabled: true
+  - id: pair_26843c9a3c264c9f93cf795a670b4641
+    name: apikey
+    value: "{{ _.api_key }}"
+    description: ""
+  - id: pair_1cf8ff9b33fe42468f024bcd1c787030
+    name: author
+    value: "0xb69cf8f29A01c0DC43f56F96458368DfC020eB27"
+    description: ""
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1630167442674
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,18 @@
+_id: env_92d457b0aa14a177ed28fe7b48de9c85dd781319
+type: Environment
+parentId: wrk_6046ed7f06144c32842e99262159df11
+modified: 1630326780743
+created: 1630144718371
+name: Base Environment
+data:
+  base_url: https://theconvo.space/api
+  api_key: CONVO
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiMHhiNjljZjhmMjlBMDFjMERDNDNmNTZGOTY0NTgzNjhEZkMwMjBlQjI3IiwiY2hhaW4iOiJldGhlcmV1bSIsImlhdCI6MTYzMDMyNjc0NywiZXhwIjoxNjMwNDEzMTQ3fQ.A8vdH1RlACUbAGd_hYNZsyGja8HCmXgNbThDTHqKO-4
+dataPropertyOrder:
+  "&":
+    - base_url
+    - api_key
+    - token
+color: null
+isPrivate: false
+metaSortKey: 1630144718371

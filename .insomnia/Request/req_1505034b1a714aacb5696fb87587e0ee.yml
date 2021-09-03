@@ -1,7 +1,7 @@
 _id: req_1505034b1a714aacb5696fb87587e0ee
 type: Request
 parentId: fld_0ad919f65ffd4ac38bad86cf786476e5
-modified: 1630417418532
+modified: 1630688003952
 created: 1630167658065
 url: "{{ _.base_url }}/comments"
 name: By ThreadId
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: >+
     {
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiMHhiNjljZjhmMjlBMDFjMERDNDNmNTZGOTY0NTgzNjhEZkMwMjBlQjI3IiwiY2hhaW4iOiJldGhlcmV1bSIsImlhdCI6MTYzMDQxNzI1MywiZXhwIjoxNjMwNTAzNjUzfQ.JGO-DyTE4lM9cY3BBkQ_bZn_HyFn4skNSlmP2z1MpGI",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiMHhiNjljZjhmMjlBMDFjMERDNDNmNTZGOTY0NTgzNjhEZkMwMjBlQjI3IiwiY2hhaW4iOiJldGhlcmV1bSIsImlhdCI6MTYzMDYwNjk2OSwiZXhwIjoxNjMwNjkzMzY5fQ.Y3sdE3b1OURBLsGN-jIJ45FqTi8mYVJKxV4nfCXE1us",
       "signerAddress": "0xb69cf8f29A01c0DC43f56F96458368DfC020eB27",
-      "comment": "huddle01",
+      "comment": "sdsdjks;djsd",
       "threadId": "huddle01__1234",
       "url": "http%3A%2F%2Flocalhost%3A3000%2F"
     }

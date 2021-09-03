@@ -1,0 +1,34 @@
+_id: req_e4a67df9c3e840938b6befeb19cae628
+type: Request
+parentId: fld_3ea30debf4f54903b4803bcb1ed92535
+modified: 1630684338248
+created: 1630683736853
+url: "{{ _.base_url }}/validateAuth"
+name: Validate Auth
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"signerAddress": "0x707aC3937A9B31C225D8C240F5917Be97cab9F20",
+    	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiMHg3MDdhQzM5MzdBOUIzMUMyMjVEOEMyNDBGNTkxN0JlOTdjYWI5RjIwIiwiaWF0IjoxNjE3NzY1MzEzLCJleHAiOjE2MTc4NTE3MTN9.6sb6lnC5RIy_JWidsYyGYrHE2fGvajBEaVh5ybwsvqE"
+    }
+parameters:
+  - id: pair_c4a8cd30e11649ffbc537145f5257f6d
+    name: apikey
+    value: "{{ _.api_key }}"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b1ff7ce683604edebb3a5f63efba126b
+authentication: {}
+metaSortKey: -1630683736853
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
